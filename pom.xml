@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.filip</groupId>
+  <artifactId>discord-bot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Discord Bot</name>
+  <description>I m trying to create my card discord bot</description>
+  
+  <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+    
+  <dependencies>
+  	  <dependency>
+  	    <groupId>net.dv8tion</groupId>
+  	    <artifactId>JDA</artifactId>
+  	    <version>5.0.0-alpha.21</version>
+  	  </dependency>
+  	  
+  	  <dependency>
+  		<groupId>com.google.code.findbugs</groupId>
+  		<artifactId>jsr305</artifactId>
+  		<version>3.0.2</version>
+	  </dependency>
+	  
+	  <dependency>
+    	<groupId>ch.qos.logback</groupId>
+    	<artifactId>logback-classic</artifactId>
+    	<version>1.2.3</version>
+      </dependency>
+
+
+  </dependencies>
+  
+</project>
